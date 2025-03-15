@@ -73,8 +73,10 @@ Visit our [project website](https://energy-monitor-esp32.web.app/) for:
 | 3.3V      | PZEM VCC  |
 | GND       | PZEM GND  |
 | GPIO34    | Battery Voltage Divider (ADC) |
+| GPIO35    | Battery Charging Status |
 
 > Note: GPIO34 (ADC1_CH6) monitors battery voltage through a voltage divider circuit (3.3V-4.2V to 0-3.3V range).
+> GPIO35 connects to the TP4056 CHRG pin to monitor charging status.
 
 ## Security Notes
 
