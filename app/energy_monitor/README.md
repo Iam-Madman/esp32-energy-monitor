@@ -1,12 +1,5 @@
 # Energy Monitor
-
-A real-time energy monitoring system that provides detailed metrics about power consumption and quality. Built using ESP32 and PZEM-004T module.
-
-## Quick Links
-
-📱 [Download Android App](https://github.com/Iam-Madman/esp32-energy-monitor/releases/download/v1.0.0/energy_monitor_esp32.apk)  
-🌐 [Project Website](https://energy-monitor-esp32.web.app/)  
-📖 [Documentation](https://github.com/Iam-Madman/esp32-energy-monitor)
+A Flutter application for monitoring energy consumption using ESP32 and PZEM-004T module.
 
 ## Supported Platforms
 

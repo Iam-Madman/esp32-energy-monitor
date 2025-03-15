@@ -2,6 +2,23 @@
 
 A comprehensive portable energy monitoring solution using ESP32 and PZEM-004T v3.0 sensors.
 
+## Quick Links
+
+🌐 [Project Website](https://energy-monitor-esp32.web.app/)  
+📱 [Download App](https://github.com/Iam-Madman/esp32-energy-monitor/releases/download/v1.0.0/energy_monitor_esp32.apk)  
+📖 [Documentation](https://github.com/Iam-Madman/esp32-energy-monitor/wiki)  
+💻 [Source Code](https://github.com/Iam-Madman/esp32-energy-monitor)
+
+## Web Interface
+
+Visit our [project website](https://energy-monitor-esp32.web.app/) for:
+- Interactive demonstrations
+- Visual setup guides
+- Hardware assembly instructions
+- Live data visualization examples
+- Mobile app download
+- Comprehensive documentation
+
 ## Features
 
 - Dual input power monitoring (16A and 30A)
