@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "energy-monitor-esp32",
+          "appId": "1:634899454799:android:a3e15e9920f60f616b033a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "energy-monitor-esp32",
+          "configurations": {
+            "android": "1:634899454799:android:a3e15e9920f60f616b033a",
+            "ios": "1:634899454799:ios:4fcbb66c84a16f606b033a",
+            "macos": "1:634899454799:ios:4fcbb66c84a16f606b033a",
+            "web": "1:634899454799:web:2688a04098e23bba6b033a",
+            "windows": "1:634899454799:web:d86b58d470f747526b033a"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "/build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

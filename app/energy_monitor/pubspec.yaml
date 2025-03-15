@@ -1,0 +1,47 @@
+name: energy_monitor
+description: "Energy monitoring application"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.12.0
+  firebase_database: ^11.3.3
+  firebase_auth: ^5.5.0
+  google_fonts: ^6.1.0
+  intl: ^0.20.2  # Updated from 0.18.0
+  url_launcher: ^6.1.14
+  shared_preferences: ^2.2.2
+  package_info_plus: ^4.1.0  # Add this line
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/energy_monitor.png
+
+flutter_launcher_icons:
+  android: true
+  web:
+    generate: true
+    image_path: "assets/images/energy_monitor.png"
+    background_color: "#1A1A1A"
+    theme_color: "#5DB996"
+  image_path: "assets/images/energy_monitor.png"
+  adaptive_icon_background: "assets/images/energy_monitor_background.png"
+  adaptive_icon_foreground: "assets/images/energy_monitor_foreground.png"
+  adaptive_icon_mask: true
+  min_sdk_android: 21
+  remove_alpha_ios: true  # This will be ignored for web/android
+  background_color: "#1A1A1A"  # Changed from background_color_ios
+  keep_notifications_icon: false
