@@ -78,7 +78,8 @@ Visit our [project website](https://energy-monitor-esp32.web.app/) for:
 > Note: GPIO34 (ADC1_CH6) monitors battery voltage through a voltage divider circuit (3.3V-4.2V to 0-3.3V range).
 > GPIO35 connects to the TP4056 CHRG pin to monitor charging status.
 
-![Untitled Diagram drawio](https://github.com/user-attachments/assets/2c9230c3-4afc-4b4e-a420-4024a0389882)
+![Untitled Diagram drawio (1)](https://github.com/user-attachments/assets/713d54ae-8ab1-43db-aa85-920dc5effde7)
+
 
 ## Security Notes
 
